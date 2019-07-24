@@ -5,6 +5,7 @@ import java.awt.Graphics;
 
 public class BluePolymorph extends Polymorph{
 
+	
 	BluePolymorph(int x, int y) {
 		super(x, y);
 	}
@@ -12,7 +13,7 @@ public class BluePolymorph extends Polymorph{
 	@Override
 	public void draw(Graphics g) {
 		g.setColor(Color.blue);
-		g.fillRect(x, y, w, h);
+		g.fillRect(getX(), gety(), getW(), getH());
 	}
 	
 }
