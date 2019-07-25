@@ -1,5 +1,7 @@
 package _04_hospital;
 
+import java.util.List;
+
 public class Doctor {
 
 	public Object performsSurgery() {
@@ -18,6 +20,11 @@ public class Doctor {
 	}
 
 	public Object makesHouseCalls() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Doctor> getPatients() {
 		// TODO Auto-generated method stub
 		return null;
 	}
