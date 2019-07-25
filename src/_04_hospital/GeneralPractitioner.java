@@ -1,10 +1,11 @@
 package _04_hospital;
 
-public class GeneralPractitioner {
+public class GeneralPractitioner extends Doctor {
 
 	public Object makesHouseCalls() {
 		// TODO Auto-generated method stub
-		return null;
+		return true;
 	}
+	
 
 }
