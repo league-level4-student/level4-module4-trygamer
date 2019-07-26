@@ -9,13 +9,7 @@ ArrayList<Patient> d = new ArrayList<Patient>();
 //Patient p = new Patient();
 
 
-try{ if(d.size()<3&&d.size()>=0) {
-	
-	
-}
-catch{
-	
-}
+
 	public Object performsSurgery() {
 		// TODO Auto-generated method stub
 		
@@ -25,8 +19,14 @@ catch{
 
 	public void assignPatient(Patient patient) throws DoctorFullException{
 		// TODO Auto-generated method stub
-		
+		if(d.size()<3) {
 			d.add(patient);
+		}
+		else {
+			
+			throw new DoctorFullException();
+		}
+		
 		}
 		
 			
@@ -35,7 +35,7 @@ catch{
 		
 		
 		
-	}
+	
 
 	public void doMedicine() {
 		// TODO Auto-generated method stub
