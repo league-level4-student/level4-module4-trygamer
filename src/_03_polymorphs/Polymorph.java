@@ -24,7 +24,9 @@ public abstract class Polymorph {
     public abstract void draw(Graphics g);
     
     public int getX() {
+    	System.out.println("has been changed"+ x);
     	return x;
+    
     }
   public int gety() {
     	return y;
@@ -32,6 +34,7 @@ public abstract class Polymorph {
     
     public void setX(int i) {
     	x= i;
+    	System.out.println("changing"+x );
     }
     
     public  void setY(int i) {

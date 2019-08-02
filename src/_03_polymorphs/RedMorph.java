@@ -6,10 +6,11 @@ public class RedMorph extends Polymorph {
 
 
 	
-	
+
 
 		RedMorph(int x, int y) {
 		super(x, y);
+		System.out.println("being changed");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -18,7 +19,9 @@ public class RedMorph extends Polymorph {
 		@Override
 		public void draw(Graphics g) {
 			g.setColor(Color.RED);
-			g.fillRect(getX(), gety(), getW(), getH());
+		//	System.out.println("draw pos x"+mm.getX());
+			
+			g.fillRect(getX(),gety(), getW(), getH());
 		}
 		
 	}
